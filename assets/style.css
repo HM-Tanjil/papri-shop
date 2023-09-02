@@ -1,0 +1,230 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+#hero__section {
+  background: rgba(229, 84, 115, 0.1);
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+.hero__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__text,
+.hero__img {
+  width: 50%;
+}
+.hero__img {
+  text-align: center;
+}
+.hero__text h1 {
+  color: #272727;
+  font-size: 70px;
+  font-weight: 900;
+}
+.hero__text h1 span {
+  color: #e55473;
+}
+
+.hero__text p {
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.primary__btn span {
+  background-color: #e55473;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.hero__img img {
+  width: 400px;
+  height: 550px;
+}
+#featured__section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section__title {
+  text-align: center;
+  padding: 0 220px;
+}
+.section__title h3 {
+  color: #272727;
+  font-size: 34px;
+  font-weight: 900;
+}
+.section__title p {
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.featured__boxs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.featured__item {
+  text-align: center;
+}
+.item__content .item__img {
+  background-color: rgba(167, 33, 98, 0.15);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  position: relative;
+  width: 350px;
+  height: 400px;
+}
+.item__content .item__img img {
+  padding: 0 20px;
+  padding-top: 20px;
+  width: 100%;
+  height: 100%;
+}
+.item__content h2 {
+  font-size: 24px;
+  color: #272727;
+  margin-top: 20px;
+}
+.item__2 .item__img {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.item__3 .item__img {
+  background-color: rgba(71, 125, 17, 0.15);
+}
+#service__section {
+  padding-bottom: 60px;
+}
+.service__box {
+  background-color: rgba(39, 39, 39, 0.05);
+  padding: 40px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service__item {
+  width: 33%;
+  text-align: center;
+}
+
+#banner__section {
+  background-color: rgba(229, 84, 115, 0.05);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.banner__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner__text span {
+  color: #e55473;
+}
+.banner__text,
+.banner__img {
+  width: 50%;
+}
+.banner__text {
+  padding: 0;
+}
+.banner__img {
+  text-align: center;
+}
+.primary__btn span {
+  color: #fff;
+}
+#instagram__section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.insta__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.insta__item {
+  width: 25%;
+}
+.insta__item img {
+  width: 100%;
+  height: 100%;
+}
+
+.newslatter__content {
+  background-image: url(../assets/images/Rectangle\ 9.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form input {
+  background-color: #fff;
+  width: 80%;
+  border-radius: 6px;
+  padding: 14px 12px;
+  margin-right: 20px;
+  border: none;
+}
+.form input:focus {
+  color: #e55473;
+  outline: none;
+}
+.send span {
+  border-radius: 6px !important;
+}
+
+#footer {
+  background: #111010;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+.footer__text h3 {
+  color: #fff;
+}
+.footer__text h3 span {
+  color: #e55473;
+}
+.footer__text p {
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer__bottom p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.4);
+}
